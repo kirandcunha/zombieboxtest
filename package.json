@@ -1,0 +1,24 @@
+{
+  "name": "zombieboxtest",
+  "version": "1.0.0",
+  "description": "Test to check zombiebox TV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirandcunha/zombieboxtest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirandcunha/zombieboxtest/issues"
+  },
+  "homepage": "https://github.com/kirandcunha/zombieboxtest#readme",
+  "dependencies": {
+    "zombiebox": "^2.7.4",
+    "zombiebox-extension-cutejs": "^1.2.1",
+    "zombiebox-platform-pc": "^2.3.3"
+  }
+}

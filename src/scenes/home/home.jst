@@ -1,0 +1,14 @@
+{{+ import Greeting from "ZombieTest/widgets/greeting/greeting"; }}
+{{+ import Button from "ZombieTest/widgets/button/button"; }}
+
+<h1>Empty "ZombieTest" project!</h1>
+
+{{% Greeting, {}, greeting }}
+
+<div class="row scenes">
+	{{% Button, 'Player', playerButton }}
+</div>
+<div class="row history">
+	{{% Button, 'Back in history', backButton }}
+	{{% Button, 'Forward in history', forwardButton }}
+</div>
